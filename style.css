@@ -1,85 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200;300;400;500;600;700;800;900;1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kurale&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: #191725;
-    margin: 0 120px;
-
+  background: #191725;
+  margin: 0 120px;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 .earls-home {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-    color: #6957d0;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: #6957d0;
 }
 
 .nav-list {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    list-style: none;
-    font-family: 'Ysabeau Infant', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #cab8b8;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #cab8b8;
 }
 
 .get-in-touch-btn {
-    font-family: 'Ysabeau Infant', sans-serif;
-    font-weight: 500;
-    font-style: 20px;
-    color: #cab8b8;
-    background-color: transparent;
-    border: 1px solid #cab8b8;
-    padding: 7px 15px;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-weight: 500;
+  font-style: 20px;
+  color: #cab8b8;
+  background-color: transparent;
+  border: 1px solid #cab8b8;
+  border-radius: 7px;
+  padding: 7px 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .text-and-image-div {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .hello-text {
-    font-family: 'Kurale', serif;
-    font-weight: 400;
-    font-size: 35px;
-    color: #cab8b8;
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: #cab8b8;
 }
 
 .name-title {
-    font-family: 'Kurale', serif;
-    font-weight: 500;
-    font-size: 65px;
-    color: #cab8b8;
+  font-family: "Kurale", serif;
+  font-weight: 500;
+  font-size: 65px;
+  color: #6957d0;
 }
 
 .greeting-text {
-    width: 500px;
-    font-family: 'Ysabeau Infant', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    color: #cab8b8;
+  width: 500px;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #cab8b8;
+  margin-bottom: 15px;
 }
 
 .toons-img {
-    width: 510px;
+  width: 510px;
 }
 
+.abt-and-prj-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
+.horizontal-line {
+  border-top: 1px solid #cab8b8;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.experience-div {
+  color: #cab8b8;
+  display: flex;
+  justify-content: start;
+  gap: 70px;
+  margin-bottom: 20px;
+}
+
+.experience-tag {
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-size: 45px;
+  color: #cab8b8;
+}
