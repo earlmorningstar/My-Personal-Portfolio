@@ -39,13 +39,13 @@ body {
 }
 
 .nav-list-items:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    text-decoration-color: #5c48ca;
-    color: #5c48ca;
-    text-decoration-thickness: 2.0px;
-    transition: all 0.2s ease-in-out;
-    transform: scale(1.2);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #5c48ca;
+  color: #5c48ca;
+  text-decoration-thickness: 2px;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
 }
 
 .get-in-touch-btn {
@@ -63,9 +63,9 @@ body {
 }
 
 .get-in-touch-btn:hover {
-    border-color: #6957d0;
-    transition: all 0.4s ease-in-out;
-    color: #5c48ca;
+  border-color: #6957d0;
+  transition: all 0.4s ease-in-out;
+  color: #5c48ca;
 }
 
 .text-and-image-div {
@@ -128,21 +128,44 @@ body {
 }
 
 .about-me {
-    font-family: "Ysabeau Infant", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #cab8b8;
-    margin: 0 0 10px 0;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #cab8b8;
+  margin: 0 0 10px 0;
 }
 
 .about-me-text {
-    font-family: "Ysabeau Infant", sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    color: #cab8b8;
-
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #cab8b8;
 }
 
 .about-me-part {
-   margin: 0 0 40px 20px;
+  margin: 0 0 40px 0;
+}
+
+.services-i-offer-text {
+  font-family: "Kurale", serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #cab8b8;
+  margin-bottom: 30px;
+}
+
+.services-div {
+  display: flex;
+  gap: 20px;
+}
+
+.all-diff-services {
+  border: 2px solid #cab8b8;
+  padding: 40px 30px;
+  text-align: center;
+  border-radius: 20px;
+  color: #cab8b8;
+}
+
+.service-title {
 }
