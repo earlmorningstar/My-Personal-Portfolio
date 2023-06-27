@@ -167,5 +167,28 @@ body {
   color: #cab8b8;
 }
 
-.service-title {
+.all-diff-services:hover {
+  border-color: #5c48ca;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
+
+.service-title {
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.service-note {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+/* .featured-projects-note {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #cab8b8;
+} */
