@@ -9,7 +9,7 @@
 }
 
 .all-body-padding {
-  padding: 0 3em;
+  padding: 0 3em 3em 3em;
   background: #191725;
 }
 
@@ -60,6 +60,10 @@
   display: flex;
   align-items: center;
   gap: 2px;
+}
+
+.Zero-txt-deco {
+  color: #cab8b8;
 }
 
 .get-in-touch-btn:hover {
@@ -226,7 +230,7 @@
   font-family: "Ysabeau Infant", sans-serif;
   padding: 5px;
   border-radius: 7px;
-  /* border: ; */
+  border: none;
   background-color: #cab8b8;
   color: #5c48ca;
   font-weight: 700;
@@ -236,6 +240,33 @@
 a {
   text-decoration: none;
 }
+
+.about-me-icon-list {
+  display: flex;
+  gap: 20px;
+}
+
+.about-icon {
+  font-size: 40px;
+  color: #cab8b8;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech-names {
+  font-family: "Ysabeau Infant", sans-serif;
+  color: #cab8b8;
+  margin-bottom: 10px; 
+}
+
+.tech-name-rights {
+  text-align: center;
+}
+
 
 @media screen and (max-width: 600px) {
   .earls-home {
@@ -253,7 +284,7 @@ a {
   }
 
   .name-title {
-    text-align: center;
+    text-align: left;
   }
 
   .text-div {
@@ -261,7 +292,7 @@ a {
   }
 
   .greeting-text {
-    text-align: center;
+    text-align: left;
   }
 
   .services-div {
@@ -273,7 +304,7 @@ a {
   }
 
   .abt-and-prj-btn {
-    justify-content: center;
+    justify-content: left;
   }
 
   .experience-div {
@@ -287,6 +318,15 @@ a {
     align-items: center;
   }
 
+  .footer  {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .about-me-icon-list {
+    text-align: center;
+  }
 }
 
 
