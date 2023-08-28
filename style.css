@@ -29,7 +29,7 @@
 
 .nav-list {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   align-items: center;
   list-style: none;
   font-family: "Ysabeau Infant", sans-serif;
@@ -51,15 +51,15 @@
 .get-in-touch-btn {
   font-family: "Ysabeau Infant", sans-serif;
   font-weight: 500;
-  font-style: 20px;
+  font-size: 12px;
   color: #cab8b8;
   background-color: transparent;
   border: 1px solid #cab8b8;
   border-radius: 7px;
-  padding: 7px 15px;
+  padding: 5px 10px;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 2px;
 }
 
 .get-in-touch-btn:hover {
@@ -70,13 +70,14 @@
 
 @media screen and (max-width: 600px) {
   #mq-hide {
-    display: none;
+    /* display: none; */
   }
   .earls-home {
     font-size: 25px;
     font-weight: 600;
   }
   .navbar {
+    justify-content: space-between;
     gap: 5px;
   }
 
@@ -249,6 +250,41 @@
   font-size: 20px;
   color: #cab8b8;
 }
+
+.proj-list {
+  border: 2px solid #cab8b8;
+  width: fit-content;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.proj-title {
+ margin-bottom: 10px;
+ font-size: 15px;
+}
+
+.list-of-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-row-gap: 10px;
+  grid-column-gap: 5px;
+}
+
+.link-btn {
+  font-family: "Ysabeau Infant", sans-serif;
+  padding: 5px;
+  border-radius: 7px;
+  /* border: ; */
+  background-color: #cab8b8;
+  color: #5c48ca;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 /* @media screen and (max-width: 600px) {
 
