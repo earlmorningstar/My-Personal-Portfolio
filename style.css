@@ -15,7 +15,7 @@
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 20px 0;
 }
@@ -34,7 +34,7 @@
   list-style: none;
   font-family: "Ysabeau Infant", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 17px;
   color: #cab8b8;
 }
 
@@ -66,54 +66,6 @@
   border-color: #6957d0;
   transition: all 0.4s ease-in-out;
   color: #5c48ca;
-}
-
-@media screen and (max-width: 600px) {
-  #mq-hide {
-    /* display: none; */
-  }
-  .earls-home {
-    font-size: 25px;
-    font-weight: 600;
-  }
-  .navbar {
-    justify-content: space-between;
-    gap: 5px;
-  }
-
-  .hero-image {
-    display: none;
-    width: 0;
-  }
-
-  .name-title {
-    text-align: center;
-  }
-
-  .text-div {
-    width: 100%;
-  }
-
-  .greeting-text {
-    text-align: center;
-  }
-
-  .services-div {
-    flex-direction: column;
-  }
-
-  .text-and-image-div {
-    justify-content: center;
-  }
-
-  .abt-and-prj-btn {
-    justify-content: center;
-  }
-
-  .experience-div {
-    flex-direction: column;
-    gap: 10px;
-  }
 }
 
 .text-and-image-div {
@@ -253,8 +205,8 @@
 
 .proj-list {
   border: 2px solid #cab8b8;
-  width: fit-content;
-  padding: 1em;
+  width: 230px;
+  padding: 0.5em;
   border-radius: 8px;
 }
 
@@ -265,7 +217,7 @@
 
 .list-of-projects {
   display: grid;
-  grid-template-columns: repeat(3, 2fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 10px;
   grid-column-gap: 5px;
 }
@@ -283,6 +235,56 @@
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .earls-home {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .navbar {
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .hero-image {
+    display: none;
+    width: 0;
+  }
+
+  .name-title {
+    text-align: center;
+  }
+
+  .text-div {
+    width: 100%;
+  }
+
+  .greeting-text {
+    text-align: center;
+  }
+
+  .services-div {
+    flex-direction: column;
+  }
+
+  .text-and-image-div {
+    justify-content: center;
+  }
+
+  .abt-and-prj-btn {
+    justify-content: center;
+  }
+
+  .experience-div {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .list-of-projects{
+    grid-template-columns: repeat(2, 3fr)
+  }
+
 }
 
 
