@@ -216,8 +216,8 @@
 }
 
 .proj-title {
- margin-bottom: 10px;
- font-size: 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .list-of-projects {
@@ -261,22 +261,22 @@ a {
 .tech-names {
   font-family: "Ysabeau Infant", sans-serif;
   color: #cab8b8;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .tech-name-rights {
   text-align: center;
 }
 
-
 @media screen and (max-width: 600px) {
   .earls-home {
     font-size: 25px;
     font-weight: 600;
   }
-  /* .navbar {
-    
-  } */
+
+  .nav-list {
+    display: none;
+  }
 
   .hero-image {
     display: none;
@@ -312,13 +312,13 @@ a {
     gap: 10px;
   }
 
-  .list-of-projects{
+  .list-of-projects {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
   }
 
-  .footer  {
+  .footer {
     flex-direction: column;
     gap: 20px;
     align-items: center;
@@ -328,7 +328,6 @@ a {
     text-align: center;
   }
 }
-
 
 /* @media screen and (max-width: 600px) {
 
