@@ -282,7 +282,7 @@ a {
   }
 
   .list-of-projects{
-    grid-template-columns: repeat(2, 3fr)
+    grid-template-columns: repeat(2, 2fr)
   }
 
 }
