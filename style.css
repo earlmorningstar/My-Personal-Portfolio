@@ -8,9 +8,9 @@
   box-sizing: border-box;
 }
 
-body {
+.all-body-padding {
+  padding: 0 3em;
   background: #191725;
-  margin: 0 120px;
 }
 
 .navbar {
@@ -68,10 +68,62 @@ body {
   color: #5c48ca;
 }
 
+@media screen and (max-width: 600px) {
+  #mq-hide {
+    display: none;
+  }
+  .earls-home {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .navbar {
+    gap: 5px;
+  }
+
+  .hero-image {
+    display: none;
+    width: 0;
+  }
+
+  .name-title {
+    text-align: center;
+  }
+
+  .text-div {
+    width: 100%;
+  }
+
+  .greeting-text {
+    text-align: center;
+  }
+
+  .services-div {
+    flex-direction: column;
+  }
+
+  .text-and-image-div {
+    justify-content: center;
+  }
+
+  .abt-and-prj-btn {
+    justify-content: center;
+  }
+
+  .experience-div {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 .text-and-image-div {
   display: flex;
   align-items: center;
-  gap: 20px;
+  /* gap: 20px; */
+  width: 100%;
+}
+
+.text-div {
+  width: 70%;
 }
 
 .hello-text {
@@ -89,7 +141,7 @@ body {
 }
 
 .greeting-text {
-  width: 500px;
+  width: 100%;
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -97,8 +149,12 @@ body {
   margin-bottom: 15px;
 }
 
-.toons-img {
-  width: 510px;
+.hero-image {
+  width: 30%;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 .abt-and-prj-btn {
@@ -185,6 +241,18 @@ body {
   font-weight: 500;
   font-size: 17px;
 }
+
+.list-of-projects {
+  padding: 1em 0;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #cab8b8;
+}
+
+/* @media screen and (max-width: 600px) {
+
+} */
 
 /* .featured-projects-note {
   font-family: "Ysabeau Infant", sans-serif;
