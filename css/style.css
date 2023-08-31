@@ -13,6 +13,14 @@
   background: #191725;
 }
 
+.index-ii {
+  padding: 0 3em 3em 3em;
+  background: #191725;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #cab8b8;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -38,6 +46,24 @@
   font-size: 17px;
   color: #cab8b8;
 }
+
+.nav-list a {
+  color: #cab8b8;
+}
+
+.get-in-touch-btn a {
+  color: #cab8b8;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.get-in-touch-btn a:hover {
+  border-color: #6957d0;
+  transition: all 0.4s ease-in-out;
+  color: #5c48ca;
+}
+
 
 .nav-list-items:hover {
   cursor: pointer;
@@ -156,6 +182,14 @@
   color: #cab8b8;
 }
 
+.about-me-text-ii {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #cab8b8;
+  margin-bottom: 30px;
+}
+
 .about-me-part {
   margin: 0 0 40px 0;
 }
@@ -240,6 +274,7 @@
 
 a {
   text-decoration: none;
+  /* color: #cab8b8; */
 }
 
 .about-me-icon-list {

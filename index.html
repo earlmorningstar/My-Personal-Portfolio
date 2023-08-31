@@ -14,11 +14,11 @@
   <body>
     <div class="all-body-padding">
       <nav class="navbar">
-        <div class="earls-home">Earl's Home!</div>
+        <a class="earls-home" href="/index.html">Earl's Home!</a>
         <div class="nav-list">
-          <div id="mq-hide" class="nav-list-items">Home</div>
+          <a id="mq-hide" class="nav-list-items" href="/index.html">Home</a>
           <div id="mq-hide" class="nav-list-items">Service</div>
-          <div id="mq-hide" class="nav-list-items">Portfolio</div>
+          <a id="mq-hide" class="nav-list-items" href="#portfolio">Portfolio</a>
           <div id="mq-hide" class="nav-list-items">Blog</div>
           <div id="mq-hide" class="nav-list-items">Contact</div>
         </div>
@@ -42,12 +42,12 @@
             with you.
           </div>
           <div class="abt-and-prj-btn">
-            <button class="get-in-touch-btn">
-              About me <i class="bx bx-envelope"></i>
-            </button>
-            <button class="get-in-touch-btn">
+            <button class="get-in-touch-btn"><a href="/index2.html">About me <i class="bx bx-envelope"></i></a></button>
+            <!-- <button id="portfolio" class="get-in-touch-btn"><a href="">Projects <i class="bx bx-laptop"></i></button> -->
+            <button class="get-in-touch-btn"><a href="#portfolio">Projects <i class="bx bx-laptop"></i></a></button>
+              <!-- <button class="get-in-touch-btn">
               Projects <i class="bx bx-laptop"></i>
-            </button>
+            </button> -->
           </div>
         </div>
 
@@ -104,7 +104,7 @@
           my skills and stay up-to-date with the latest industry trends. HTML is
           the foundation of every web page, and I embrace its structure and
           semantic markup to create well-organized and accessible content.
-          <a href="">continue reading...</a>
+          <a href="/index2.html">continue reading...</a>
         </div>
       </div>
       <div class="horizontal-line"></div>
@@ -150,6 +150,7 @@
         </div>
       </div>
       <div class="horizontal-line"></div>
+      <div id="portfolio">
       <div class="services-i-offer-text">Featured Projects:</div>
 
       <div class="about-me-text">
@@ -273,6 +274,7 @@
           </div>
         </div>
       </div>
+    </div>
       <div class="horizontal-line"></div>
 
       <footer class="footer">
@@ -299,5 +301,6 @@
         </div>
       </footer>
     </div>
+    <script src="/script.js"></script>
   </body>
 </html>
